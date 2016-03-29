@@ -22,9 +22,7 @@ public class InstanceMethod
 		int y=in.nextInt();
 		in.close();
 		
-		Imethod meth = new Imethod();
-		
-		meth.multiplication(x,y);
+		new Imethod().multiplication(x,y);
 	}
 
 }
